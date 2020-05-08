@@ -1,0 +1,51 @@
+
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.w{
+  width: 50%;
+  padding: 10px;
+}
+
+.reg-left {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.reg-right {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+form {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+input{
+  margin: 5px 0;
+  padding: 5px 0;
+}
+
+.radio label{
+  padding: 15px;
+}
+
+button {
+  width: 200px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  background: blueviolet;
+  text-transform: uppercase;
+  color: white;
+  margin: 23px 0;
+  outline: none;
+}

@@ -1,0 +1,22 @@
+<div class="card">
+  <div class="card-header">
+    <span>{{user.name}}</span>
+    <span>{{user.lastName}}</span>
+    <button>edit</button>
+  </div>
+  <div class="card-content">
+    <div class="user-img">
+      <img [src]="user.imgUrl" alt="" style="height: 100px">
+    </div>
+    <div class="user-info">
+      <span>ID:{{user.ID}}</span>
+      <span>Phone:{{user.mobile}}</span>
+      <span>Gender:{{user.gender}}</span>
+    </div>
+    <div class="user-address">
+      <span>Country:{{user.legalAddress.country}}</span>
+      <span>City:{{user.legalAddress.city}}</span>
+      <span>Adress:{{user.legalAddress.address}}</span>
+    </div>
+  </div>
+</div>

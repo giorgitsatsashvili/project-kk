@@ -1,0 +1,46 @@
+
+[
+  {
+    "userId": 123456,
+    "name": "giorgi",
+    "lastName": "tsatsashvili",
+    "gender": "male",
+    "ID": 5555555,
+    "mobile": 44444444,
+    "imgUrl": "assets/img/default-user.png",
+    "legalAddress": {
+      "country": "Georgia",
+      "city": "Tbilisi",
+      "address": "Bakhtrioni"
+    }
+  },
+  {
+    "userId": 12553456,
+    "name": "giorgi",
+    "lastName": "tsatsashvili",
+    "gender": "male",
+    "ID": 5555555,
+    "mobile": 44444444,
+    "imgUrl": "assets/img/default-user.png",
+    "legalAddress": {
+      "country": "Georgia",
+      "city": "Tbilisi",
+      "address": "Bakhtrioni"
+    }
+  },
+  {
+    "userId": 12553456,
+    "name": "giorgi",
+    "lastName": "tsatsashvili",
+    "gender": "male",
+    "ID": 5555555,
+    "mobile": 44444444,
+    "imgUrl": "assets/img/default-user.png",
+    "legalAddress": {
+      "country": "Georgia",
+      "city": "Tbilisi",
+      "address": "Bakhtrioni"
+    }
+  }
+ ]
+

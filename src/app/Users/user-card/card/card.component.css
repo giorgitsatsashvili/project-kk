@@ -1,0 +1,47 @@
+.card {
+  border: 1px solid gray;
+}
+
+.card-header {
+  background: #0074D9;
+  color: white;
+
+}
+
+.card-header span {
+  padding: 10px 15px;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.card-content {
+  padding:20px 70px 20px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.user-address {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.user-address label {
+ text-transform: capitalize;
+  font-style: italic;
+  color: gray;
+}
+
+
+button {
+  float: right;
+  padding: 5px;
+}

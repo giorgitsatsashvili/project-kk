@@ -1,0 +1,40 @@
+<div class="container">
+  <div style="margin: 50px">
+    <h1 style="text-align: center">Add New User</h1>
+    <div >
+      <form action="" [formGroup]="registrationForm">
+        <!--          {{registrationForm.value | json}}-->
+        <div class="reg-left">
+          <label for="">Name</label>
+          <input type="text" formControlName="name">
+          <label for="">Lastname</label>
+          <input type="text" formControlName="lastName">
+          <label for="">Phone</label>
+          <input type="" formControlName="mobile">
+          <label for="">ID</label>
+          <input type="text" formControlName="ID">
+          <div class="radio">
+            <label for="">Male</label>
+            <input type="radio" value="male" formControlName="gender">
+            <label for="">Women</label>
+            <input type="radio" value="women" formControlName="gender">
+          </div>
+        </div>
+        <div class="reg-right" formGroupName="legalAddress">
+          <label for="">Country</label>
+          <input type="text" formControlName="country">
+          <label for="">City</label>
+          <input type="text" formControlName="city">
+          <label for="">Adress</label>
+          <input type="text" formControlName="address">
+          <button class="btn" (click)="addUser(registrationForm.value)">Add</button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+  <div class="wrapper">
+
+    <app-card class="w" *ngFor="let user of UsersArr" [user]="user"></app-card>
+  </div>
+</div>
